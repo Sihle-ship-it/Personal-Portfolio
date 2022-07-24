@@ -22,7 +22,7 @@ import { environment } from '../../../environments/environment';
        }
        onSubmit(name, subject, email, message) {
           const headers = new HttpHeaders({ 'Content-Type': 'application/json' });
-          this.http.post('https://formspree.io/f/mwkwpzve',
+          this.http.post('https://formspree.io/f/xdobqpqb',
             { name: name, subject: subject, replyto: email, message: message },
             { 'headers': headers }).subscribe(
               response => {
